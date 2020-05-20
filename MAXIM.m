@@ -18,7 +18,8 @@ hFig = figure('MenuBar',            'none', ...
 
                 
 data.Panel = addPanel(hFig);
-%data.Panel.LoadData.Comp = addComponents2Panel_LoadData(data.Panel.LoadData.hPanel);
+data.Panel.LoadImage.Comp = addComponents2Panel_LoadImage(data.Panel.LoadImage.hPanel);
+data.Panel.View.Comp = addComponents2Panel_View(data.Panel.View.hPanel);
 
 guidata(hFig, data);
                                
